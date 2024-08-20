@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EndenGaming - Vestibulo</title>
+    <script>
+        function showAlert() {
+            alert("iHola! Bienvenido al vestibulo de EndenGaming") 
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .contenedor {
+            width: 80%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .bienvenida {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: #142881;
+            color: white;
+            border-radius: 10px;
+        }
+
+        .contenido {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .caja {
+            width: 48%;
+            padding: 20px;
+            background-color: #e7e7e7;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .caja h2 {
+            margin-top: 0;
+        }
+
+        .Google {
+            color: darkblue;
+        }
+
+        .EG {
+            color: darkblue;
+        }
+
+        .status {
+            color: black;
+        }
+
+        .mnt {
+            color: orange;
+        }
+
+        .mnt2 {
+            color: darkred;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .mnt3 {
+            color: red;
+        }
+
+        .mnt4 {
+            color: darkred;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <br />
+    <div class="contenedor">
+        <div class="bienvenida">
+            <h1>Bienvenido al vestibulo</h1>
+            <p>Esto es el inicio de todo, antes de entrar, deberas asegurarte de<br />
+            haber llegado aqui seguramente y no con enlaces no deseados.</p>
+        </div>
+        <div class="contenido">
+            <div class="caja">
+                <h2 class="Google">> Volver hacia Google </h2>
+                <p>Si por cualquier error, oh link de spam llegaste hacia esta pagina<br />
+                pulsando aqui podras volver hacia la pestaña inicial de Google Chrome.</p>
+                <a href="https://www.google.com">Volver hacia Google</a>
+            </div>
+            <div class="caja">
+                <h2 class="EG">> Iniciar en <u>EndenGaming</u> </h2>
+                <p>Pulsando aqui, podras ingresar al Lobby.</p>
+                <p class="status">Estado: <a class="mnt"><u>[?] Estamos investigando el problema [?]</u></a></p>
+                <a class="link">Link no disponible: <u class="mnt2">[-]</u> <u class="mnt3">No disponible por el momento</u> <u class="mnt4">[-]</u></a>
+                <footer>
+                    <p>&copy; 2024 EldenGaming. Todos los derechos reservados. <a href="#">Política de Privacidad</a> | <a href="#">Términos de Uso</a></p>
+                </footer>
+            
+            </div>
+        </div>
+    </div>
+</body>
+</html>
